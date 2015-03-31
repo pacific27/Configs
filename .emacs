@@ -16,3 +16,14 @@
 
 (setq split-height-threshold nil)
 (setq split-width-threshold 160)
+
+;; Custom LaTex settings
+
+(setq latex-run-command "pdflatex")
+(add-hook 'LaTex-mode-hook 'flyspell-mode)
+
+;; Disable lockfiles
+(setq create-lockfiles nil)
+
+;; Disable global revert mode
+(global-auto-revert-mode-1)
