@@ -10,3 +10,4 @@ Currently backing up my
 .bashrc
 .emacs
 .Intellij Idea configuration
+Plasma_4.colors (custom workstation theme)
