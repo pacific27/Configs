@@ -104,7 +104,11 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
 fi
 
 # added directories to bash
-PATH=$PATH:/media/sf_D/Linux/System/login
+PATH=$PATH:/media/sf_D/Linux/System/login:/opt:usr/share/applications
+
+#exports
+JAVA_HOME=/opt/java/jdk1.8.0_25
+export PATH=$PATH:$JAVA_HOME/bin
 
 # added current branch display to command line when using git
 function parse_git_branch () {
