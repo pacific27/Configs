@@ -31,7 +31,7 @@
 ;; Display line numbers on startup
 (global-linum-mode 1)
 (setq linum-format "%d ")
-
+(set-face-foreground 'linum "#FF0")
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
